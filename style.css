@@ -1,0 +1,52 @@
+body {
+    margin: 0; /* start css file w/ reset */
+    height: 100vh; /* viewer height */
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 1fr 1fr;
+    grid-gap: 5px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    text-transform: uppercase;
+    height: 50px;
+    background-color:chocolate;
+}
+
+nav div {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-weight: bold;
+    color: #bff707;
+}
+
+/* nav section {
+    display: grid;
+} */
+
+aside {
+background-color: #fa0c0c;
+}
+
+main {
+background-color: #226AFA;
+}
+
+footer {
+background-color: #e3e8e0;
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, footer {
+    grid-column: span 2;
+}
