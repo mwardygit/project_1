@@ -2,8 +2,8 @@ body {
     margin: 0; /* start css file w/ reset */
     height: 100vh; /* viewer height */
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 50px 1fr 1fr;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 50px 3fr 100px;
     grid-gap: 5px;
 }
 
@@ -11,7 +11,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: right;
-
     text-transform: uppercase;
     height: 50px;
     background-color:chocolate;
@@ -25,20 +24,16 @@ nav div {
     color: #bff707;
 }
 
-/* nav section {
-    display: grid;
-} */
-
 aside {
-background-color: #fa0c0c;
+    background-color: #fa0c0c;
 }
 
 main {
-background-color: #226AFA;
+    background-color: #226AFA;
 }
 
 footer {
-background-color: #e3e8e0;
+    background-color: #e3e8e0;
 }
 
 .flex-ctr {
@@ -50,3 +45,22 @@ background-color: #e3e8e0;
 nav, footer {
     grid-column: span 2;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 200%;
+  }
+
+ 
