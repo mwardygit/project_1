@@ -4,7 +4,7 @@ body {
     /* height: 100vh; */
     display: grid;
     grid-template-columns: 230px 6fr;
-    grid-template-rows: 50px 3fr 300px;
+    grid-template-rows: 50px 3fr 100px;
     grid-gap: 5px;
 }
 
@@ -33,6 +33,7 @@ aside {
 aside img {
     width: 215px;
     height: auto;
+    justify-content: center;
 }
 
 main h2 {
@@ -44,8 +45,18 @@ main {
     background-color: white;
     color:cadetblue;
     padding-left: 20px;
+    padding-right: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:x-large;
+}
+
+main img {
+    padding-left: 100px;
+}
+
+main div {
+    font-style: italic;
+    text-align: center;
 }
 
 footer {
@@ -68,9 +79,9 @@ aside {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 500px;
     grid-gap: 10px;
-    background-color: #fff;
+    background-color: #e3e8e0;
     color: #444;
 }
 
@@ -80,7 +91,9 @@ aside {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    font-size: 200%;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
  
