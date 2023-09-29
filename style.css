@@ -1,9 +1,10 @@
 body {
     margin: 0; /* start css file w/ reset */
-    height: 100vh; /* viewer height */
+
+    /* height: 100vh; */
     display: grid;
-    grid-template-columns: 3fr 8fr;
-    grid-template-rows: 50px 3fr 100px;
+    grid-template-columns: 230px 6fr;
+    grid-template-rows: 50px 3fr 300px;
     grid-gap: 5px;
 }
 
@@ -27,6 +28,11 @@ nav div {
 aside {
     background-color: white;
     align-content: center;
+    padding-right: 5px;
+}
+aside img {
+    width: 215px;
+    height: auto;
 }
 
 main h2 {
@@ -35,10 +41,11 @@ main h2 {
 }
 
 main {
-    background-color: #226AFA;
+    background-color: white;
+    color:cadetblue;
     padding-left: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+    font-size:x-large;
 }
 
 footer {
