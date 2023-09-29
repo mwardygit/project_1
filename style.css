@@ -1,7 +1,5 @@
 body {
     margin: 0; /* start css file w/ reset */
-
-    /* height: 100vh; */
     display: grid;
     grid-template-columns: 230px 6fr;
     grid-template-rows: 50px 3fr 100px;
@@ -17,12 +15,19 @@ nav {
     background-color:chocolate;
 }
 
-nav div {
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+nav ul {
     margin: 20px;
     font-weight: bold;
+    list-style-type:none;
+}
+
+nav li {
+    display: inline;
+    list-style-position: inside;
     color: #bff707;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-inline: 20px;
 }
 
 aside {
@@ -79,15 +84,14 @@ aside {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 500px;
-    grid-gap: 10px;
+    grid-template-columns: auto;
     background-color: #e3e8e0;
     color: #444;
 }
 
 .box {
     background-color: #444;
-    color: #fff;
+    color:yellow;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
