@@ -58,8 +58,7 @@ main {
 main img {
     padding-left: 100px;
 }
-
-main div {
+#caption1 {
     font-style: italic;
     text-align: center;
 }
@@ -74,7 +73,32 @@ footer {
     align-items: center;
 }
 
-nav, footer {
+/* Page 2 items - flex layout */
+.flex-itemlist {
+    display: flex;
+    justify-content: center;
+    background-color:lightgreen;
+}
+
+.flex-itemlist li {
+    display:flexbox;
+    text-align: center;
+}
+
+.flex-itemlist img {
+    border-style: groove;
+    border-color:blue;
+}
+
+/* .flex-itemlist p {
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    padding-top: 0;
+}
+ */
+
+ nav, footer {
     grid-column: span 2;
 }
 
