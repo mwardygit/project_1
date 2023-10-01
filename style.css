@@ -2,7 +2,6 @@ body {
     margin: 0; /* start css file w/ reset */
     display: grid;
     grid-template-columns: 230px 1fr;
-    grid-template-rows: 50px 3fr 100px;
     grid-gap: 5px;
 }
 
@@ -18,7 +17,7 @@ nav {
 nav ul {
     margin: 20px;
     font-weight: bold;
-    list-style-type:none;
+    list-style: none;
 }
 
 nav li {
@@ -75,18 +74,23 @@ footer {
 
 .flex-itemlist {
     display: flex;
-    justify-content: center;
+    justify-content:left;
     /* background-color:lightgreen; */
 }
 
 .flex-itemlist li {
-    display:flex;
     text-align: left;
-    padding: 20px;
+    padding: 40px;
+    list-style: none;
 }
 
 .flex-itemlist img {
-    width: 50%;
+    width: 200px;
+    justify-content: left;
+    padding: 3px;
+    border: blue;
+    border-style: groove;
+    border-width: 3px;
 }
 
  nav, footer {
@@ -108,7 +112,7 @@ aside {
     background-color: #444;
     color:yellow;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
     font-size: 100%;
