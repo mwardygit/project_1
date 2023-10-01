@@ -1,7 +1,7 @@
 body {
     margin: 0; /* start css file w/ reset */
     display: grid;
-    grid-template-columns: 230px 6fr;
+    grid-template-columns: 230px 1fr;
     grid-template-rows: 50px 3fr 100px;
     grid-gap: 5px;
 }
@@ -73,30 +73,21 @@ footer {
     align-items: center;
 }
 
-/* Page 2 items - flex layout */
 .flex-itemlist {
     display: flex;
     justify-content: center;
-    background-color:lightgreen;
+    /* background-color:lightgreen; */
 }
 
 .flex-itemlist li {
-    display:flexbox;
-    text-align: center;
+    display:flex;
+    text-align: left;
+    padding: 20px;
 }
 
 .flex-itemlist img {
-    border-style: groove;
-    border-color:blue;
+    width: 50%;
 }
-
-/* .flex-itemlist p {
-    font-style: italic;
-    font-size: medium;
-    text-align: center;
-    padding-top: 0;
-}
- */
 
  nav, footer {
     grid-column: span 2;
