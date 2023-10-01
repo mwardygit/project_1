@@ -8,9 +8,9 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-between;
     text-transform: uppercase;
-    height: 50px;
+    height: 60px;
     background-color:chocolate;
 }
 
