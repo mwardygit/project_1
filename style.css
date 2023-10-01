@@ -72,8 +72,13 @@ footer {
     align-items: center;
 }
 
+/* ############################## */
+/* 2ND PAGE - PURCHASE ITEMS LIST */
 .flex-itemlist {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
     justify-content:left;
     /* background-color:lightgreen; */
 }
@@ -92,8 +97,10 @@ footer {
     border-style: groove;
     border-width: 3px;
 }
+/* ############################## */
 
- nav, footer {
+
+nav, footer {
     grid-column: span 2;
 }
 
@@ -101,6 +108,8 @@ aside {
     padding: 5%;
 }
 
+/* ############################## */
+/*  ALL PAGES - BOTTOM INFO BAR  */
 .wrapper {
     display: grid;
     grid-template-columns: auto;
@@ -118,5 +127,7 @@ aside {
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* ############################## */
+
 
  
