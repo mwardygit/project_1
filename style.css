@@ -5,6 +5,8 @@ body {
     grid-gap: 5px;
 }
 
+/* ##################### */
+/* ALL PAGES - TOP MENU */
 nav {
     display: flex;
     flex-direction: row;
@@ -29,10 +31,12 @@ nav li {
     padding-inline: 20px;
 }
 
+/* ############################## */
+/* 1ST PAGE - LOGO & MAIN BLURB */
 aside {
     background-color: white;
     align-content: center;
-    padding-right: 5px;
+    padding: 5%;
 }
 aside img {
     width: 215px;
@@ -62,36 +66,15 @@ main img {
     text-align: center;
 }
 
-footer {
-    background-color: #e3e8e0;
-}
-
-.flex-ctr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* ############################## */
 /* 2ND PAGE - PURCHASE ITEMS LIST */
-.flex-itemlist {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 0 0 50%;
-    justify-content:left;
-    /* background-color:lightgreen; */
+.grid-itemlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
-.flex-itemlist li {
-    text-align: left;
-    padding: 40px;
-    list-style: none;
-}
-
-.flex-itemlist img {
+.grid-itemlist img {
     width: 200px;
-    justify-content: left;
+    justify-content: center;
     padding: 3px;
     border: blue;
     border-style: groove;
@@ -104,12 +87,19 @@ nav, footer {
     grid-column: span 2;
 }
 
-aside {
-    padding: 5%;
-}
 
 /* ############################## */
 /*  ALL PAGES - BOTTOM INFO BAR  */
+footer {
+    background-color: #e3e8e0;
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: auto;
